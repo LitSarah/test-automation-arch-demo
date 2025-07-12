@@ -1,0 +1,26 @@
+{
+  "name": "test-automation-arch-demo",
+  "version": "1.0.0",
+  "description": "Demo project for experimenting with and documenting various test automation architectural patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm exec playwright test"
+  },
+  "keywords": [
+    "playwright",
+    "test automation",
+    "architecture",
+    "demo"
+  ],
+  "author": "Sarah Little",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.13"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.47.3",
+    "chalk": "^5.4.1"
+  }
+}
